@@ -1,0 +1,15 @@
+<UserControl x:Class="NoToAll.Views.ReportsMenu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Border x:Name="MenuBorder" Width="220" Background="#21262d" VerticalAlignment="Stretch">
+        <StackPanel>
+            <Button Content="⏴" Width="28" Height="28" Style="{StaticResource GameButton}" ToolTip="Свернуть" HorizontalAlignment="Right"/>
+            <ListBox>
+                <ListBoxItem Content="Оборотно-сальдовая ведомость"/>
+                <ListBoxItem Content="Журнал операций"/>
+                <ListBoxItem Content="Книга покупок"/>
+                <ListBoxItem Content="Главная книга"/>
+            </ListBox>
+        </StackPanel>
+    </Border>
+</UserControl>
